@@ -40,3 +40,7 @@ Após realizar a montagem, vamos conferir a lista de funcionalidades e adicionar
 
 - **Editor de README.md:** https://pandao.github.io/editor.md/en.html
 - **Shield.io:** https://shields.io/
+
+### Short bio dos integrantes do grupo BrightSide:
+![](https://cdn.discordapp.com/attachments/740352379496431718/826936659442532393/unknown.png)
+- **Lucas Akira Watanabe, tenho 15 anos, gosto de andar de bicicleta, fazer caminhadas e ir à parques, nesse projeto eu ajudei com partes da programação, o que eu prefiro do que design, mas que nesse projeto não foi necessário.
