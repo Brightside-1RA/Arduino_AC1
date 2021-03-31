@@ -20,30 +20,19 @@ void setup()
   
   Serial.begin(9600);
 	
-  Serial.println("AC1 - Meu Primeiro Projeto 2021");
-  Serial.println("                           V1.0");
-  Serial.println("Grupo: NOME AQUI               ");
+  Serial.println("AC1 - Meu Primeiro Projeto 2021"); //imprimir texto
+  Serial.println("                           V1.0"); //imprimir texto
+  Serial.println("Grupo: BRIGHTSIDE               "); //imprimir texto
 }
 
-void loop()
+void loop() //repetir o que está dentro
 {
-  if((millis() - lastDebounceTime1) > botaoDelay && digitalRead(botao1)){
-  	Serial.println("botao 1 apertado");
-    ledVermelho();
-  	lastDebounceTime1 = millis();
+  if((millis() - lastDebounceTime1) > botaoDelay && digitalRead(botao1)){ //quando clicar no botao1
+  	Serial.println("Producao iniciada"); //imprimir o texto
+        digitalWrite(vermelho, HIGH); //ligar o led vermelho
+  	lastDebounceTime1 = millis(); //redefinir o lastDebounceTime1
   }
-	
-  if((millis() - lastDebounceTime2) > botaoDelay && digitalRead(botao2)){ //se o "botao2" for pressionado:
-    Serial.println("Producao encerrada"); //"imprimir" no monitor Serial:"Producao encerrada"
-    digitalWrite(vermelho, LOW); //desligar o Led vermelho
-    lastDebounceTime2 = millis(); //redefinir o "lastDebounceTime2"
-  }
-  if(getLuminosidade() > 5){ //adicionada as linhas com a função de ligar o Led verde (se a luminosidade maior que 5:)
-  digitalWrite (verde, HIGH); //ligar o Led verde
-  }else{ //se a luminosidade menor ou igual a 5:
-  digitalWrite (verde, LOW); //desligar o Led verde
-  }
-	
+  
   if(getTemperatura() > 30){
     ledAzul(true);
   }else{
