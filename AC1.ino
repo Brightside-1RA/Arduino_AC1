@@ -58,12 +58,6 @@ Serial.println("a Iuminosidade do ambiente esta muito alta"); }else{
 	  
 digitalWrite(azul,  LOW);//  digitalWrite e azul  LOW
 Serial.println("a Iuminosidade do ambiente esta adequada"); 
-
-    ledAzul(true);
-  }else{
-  	ledAzul(falso); 
-  }
-  	
   delay(10);
 }
 
