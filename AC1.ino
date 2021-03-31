@@ -48,15 +48,17 @@ void loop() //repetir o que está dentro
   delay(10);
 }
 
-void ledVermelho(){
+ void ledVermelho(bool estado){ //"redefinindo" o estado do led vermelho
   estadoLedVermelho = !estadoLedVermelho;
   digitalWrite(vermelho,estadoLedVermelho);
 }
-void ledVerde(){
- //precisa fazer  
+void ledVerde(bool estado){ //"redefinindo" o estado do led verde
+  estadoLedVerde = !estadoLedVerde;
+  digitalWrite(verde,estadoLedVerde); 
 }
-void ledAzul(bool estado){
-	digitalWrite(azul,estado);
+void ledAzul(bool estado){ //"redefinindo" o estado do led azul
+  estadoLedAzul = !estadoLedAzul;
+  digitalWrite(azul,estado);
 }
 
 int getTemperatura(){
