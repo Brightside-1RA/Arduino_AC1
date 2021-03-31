@@ -53,3 +53,6 @@ Após realizar a montagem, vamos conferir a lista de funcionalidades e adicionar
 
 ![image](https://user-images.githubusercontent.com/80905505/113220390-7a81be80-9259-11eb-9286-4ba0d05beac4.png)
 - meu nome é arthur tenho 15 anos ,ando de skate e gosto de progamar
+
+![image](https://user-images.githubusercontent.com/80905448/113220858-4c50ae80-925a-11eb-9507-8a6a34daca19.png)
+Eu sou Guilherme tenho 14 anos e gosto de passar o tempo com os amigos, tocar instrumentos, jogar vídeo games, e adoro programar e gosto muito de design
