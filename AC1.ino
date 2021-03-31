@@ -49,7 +49,13 @@ void loop() //repetir o que está dentro
   digitalWrite (verde, LOW); //desligar o Led verde
   }
   
-  if(getTemperatura() > 30){
+  if(getTemperatura() >= 15){//>=15graus
+digitalWrite(azul, HIGH);//  digitalWrite e azul HIGH
+Serial.println("a Iuminosidade do ambiente esta muito alta"); }else{
+	  
+digitalWrite(azul,  LOW);//  digitalWrite e azul  LOW
+Serial.println("a Iuminosidade do ambiente esta adequada"); 
+
     ledAzul(true);
   }else{
   	ledAzul(falso); 
