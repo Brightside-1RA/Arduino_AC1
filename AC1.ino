@@ -32,7 +32,18 @@ void loop()
     ledVermelho();
   	lastDebounceTime1 = millis();
   }
-  
+	
+  if((millis() - lastDebounceTime2) > botaoDelay && digitalRead(botao2)){ //se o "botao2" for pressionado:
+    Serial.println("Producao encerrada"); //"imprimir" no monitor Serial:"Producao encerrada"
+    digitalWrite(vermelho, LOW); //desligar o Led vermelho
+    lastDebounceTime2 = millis(); //redefinir o "lastDebounceTime2"
+  }
+  if(getLuminosidade() > 5){ //adicionada as linhas com a função de ligar o Led verde (se a luminosidade maior que 5:)
+  digitalWrite (verde, HIGH); //ligar o Led verde
+  }else{ //se a luminosidade menor ou igual a 5:
+  digitalWrite (verde, LOW); //desligar o Led verde
+  }
+	
   if(getTemperatura() > 30){
     ledAzul(true);
   }else{
