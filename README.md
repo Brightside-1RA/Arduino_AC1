@@ -56,3 +56,6 @@ Após realizar a montagem, vamos conferir a lista de funcionalidades e adicionar
 
 ![image](https://user-images.githubusercontent.com/80905448/113220858-4c50ae80-925a-11eb-9507-8a6a34daca19.png)
 - Eu sou Guilherme tenho 14 anos e gosto de passar o tempo com os amigos, tocar instrumentos, jogar vídeo games, e adoro programar e gosto muito de design
+
+![image](https://cdn.discordapp.com/attachments/724643384068669514/826950368671694868/Captura_de_tela_de_2021-03-31_19-40-53.png)
+- **Meu nome é Gustavo Demeis Peres, mais conhecido apenas como Demeis, gosto de tocar instrumentos como baixo e violão, ouvir música e praticar esportes. Minha função foi na parte de ajudar a encontrar os erros no trabalho.**
