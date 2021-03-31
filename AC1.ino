@@ -1,13 +1,19 @@
-//variaveis da led
-const int vermelho = 5;
+
+const int vermelho = 5; //definindo as portas dos leds
 const int verde = 6;
-const int azul = 7
+const int azul = 7;
 
-bool estadoLedVermelho = false;
+bool estadoLedVermelho = false; //definindo o estado dos leds
+bool estadoLedVerde = false;
+bool estadoLedAzul = false;
 
-const int botao1 = 2;
-unsigned long lastDebounceTime1 = 0;
-const int botaoDelay = 100;
+const int botao1 = 2; //definindo as "portas" dos botões
+const int botao2 = 3;
+
+unsigned long lastDebounceTime1 = 0; //definindo o lastDebounceTime para cada botão
+unsigned long lastDebounceTime2 = 0;
+
+const int botaoDelay = 100; //delay para o clique do botão
 
 void setup()
 {
