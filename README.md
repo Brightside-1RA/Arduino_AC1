@@ -47,3 +47,5 @@ Após realizar a montagem, vamos conferir a lista de funcionalidades e adicionar
 ### Short bio dos integrantes do grupo BrightSide:
 ![](https://cdn.discordapp.com/attachments/740352379496431718/826936659442532393/unknown.png)
 - **Lucas Akira Watanabe, tenho 15 anos, gosto de andar de bicicleta, fazer caminhadas e ir à parques, além disso gosto de programar, por isso nesse projeto eu ajudei com partes da programação, o que eu prefiro muito mais do que design, porém não foi necessário nesse projeto.**
+https://discord.com/channels/@me/808310588936683551/826948309587329034
+Meu nome é Arthur tenho 15 anos e gosto de jogar e programar andar de skate //My name is Arthur I am 15 years old and I like to play and plan to skate
