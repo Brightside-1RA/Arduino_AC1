@@ -42,7 +42,7 @@ Após realizar a montagem, vamos conferir a lista de funcionalidades e adicionar
 - **Shield.io:** https://shields.io/
 
 ### Componentes finais do projeto:
-![](![image](https://user-images.githubusercontent.com/78860065/113216962-823e6480-9253-11eb-89a5-aff6dd33d6de.png)
+(![image](https://user-images.githubusercontent.com/78860065/113216962-823e6480-9253-11eb-89a5-aff6dd33d6de.png)
 
 ### Short bio dos integrantes do grupo BrightSide:
 ![](https://cdn.discordapp.com/attachments/740352379496431718/826936659442532393/unknown.png)
