@@ -17,14 +17,17 @@ const int botaoDelay = 100; //delay para o clique do botão
 
 void setup()
 {
-  pinMode(A0, INPUT);
-  pinMode(A1, INPUT);
+   pinMode(A0, INPUT); //definindo que o pino do sensor de temperatura é um INPUT (receberá informação)
+  pinMode(A1, INPUT); //definindo que o pino do ''sensor'' de luminosidade é um INPUT (receberá informação)
+	
+  pinMode(botao1, INPUT); //linha adicionada, definindo que o pino do botão1 ''receberá informação''
+  pinMode(botao2, INPUT); //linha adicionada, definindo que o pino do botão2 ''receberá informação''
   
-  pinMode(vermelho, OUTPUT);
-  pinMode(verde, OUTPUT);
-  pinMode(azul, saida);
+  pinMode(vermelho, OUTPUT); //definindo que o pino em que está o led receberá energia
+  pinMode(verde, OUTPUT); //definindo que o pino em que está o led receberá energia
+  pinMode(azul, OUTPUT); //mudança de ''saída'' para ''output'', definindo que o pino em que está o led receberá energia
   
-  Serial.begin(9600);
+  Serial.begin(9600); //iniciando o Serial
 	
   Serial.println("AC1 - Meu Primeiro Projeto 2021"); //imprimir texto
   Serial.println("                           V1.0"); //imprimir texto
