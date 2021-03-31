@@ -47,5 +47,9 @@ Após realizar a montagem, vamos conferir a lista de funcionalidades e adicionar
 ### Short bio dos integrantes do grupo BrightSide:
 ![](https://cdn.discordapp.com/attachments/740352379496431718/826936659442532393/unknown.png)
 - **Lucas Akira Watanabe, tenho 15 anos, gosto de andar de bicicleta, fazer caminhadas e ir à parques, além disso gosto de programar, por isso nesse projeto eu ajudei com partes da programação, o que eu prefiro muito mais do que design, porém não foi necessário nesse projeto.**
+
 ![image](https://user-images.githubusercontent.com/79206358/113220156-0fd08300-9259-11eb-9723-221ea0c30bc4.png)
 - **Pedro Paulo Sabino Botelho, tenho 15 anos, gosto de jogar Valorant com meus amigos, jogar futebol e trabalhar com design digital, nesse projeto não foi necessário trabalhar com essa função, mas sempre que dá eu adoro assumir essa parte.**
+
+![image](https://user-images.githubusercontent.com/80905505/113220390-7a81be80-9259-11eb-9286-4ba0d05beac4.png)
+- meu nome é arthur tenho 15 anos ,ando de skate e gosto de progamar
