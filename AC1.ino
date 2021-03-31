@@ -58,6 +58,13 @@ Serial.println("a Iuminosidade do ambiente esta muito alta"); }else{
 	  
 digitalWrite(azul,  LOW);//  digitalWrite e azul  LOW
 Serial.println("a Iuminosidade do ambiente esta adequada"); } 
+	
+	Serial.println ("A temperatura e de ");
+  Serial.println (getTemperatura ());
+  Serial.println (" graus");
+  Serial.println ("A luminosidade do ambiente esta em ");
+  Serial.println (getLuminosidade());
+	
   delay(10);
 }
 
