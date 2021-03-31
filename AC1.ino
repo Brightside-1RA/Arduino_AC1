@@ -57,7 +57,7 @@ digitalWrite(azul, HIGH);//  digitalWrite e azul HIGH
 Serial.println("a Iuminosidade do ambiente esta muito alta"); }else{
 	  
 digitalWrite(azul,  LOW);//  digitalWrite e azul  LOW
-Serial.println("a Iuminosidade do ambiente esta adequada"); 
+Serial.println("a Iuminosidade do ambiente esta adequada"); } 
   delay(10);
 }
 
