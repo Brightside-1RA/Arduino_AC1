@@ -81,13 +81,13 @@ void ledAzul(bool estado){ //"redefinindo" o estado do led azul
   digitalWrite(azul,estado);
 }
 
-int getTemperatura(){
+int getTemperatura(){ //criando a variável da temperatura e pegando seu valora (segundo o sensor de temperatura)
   	int temperaturaC;
 	temperaturaC = map(((analogRead(A0) - 20) * 3.04), 0, 1023, -40, 125);
   	return temperaturaC;
 } 
 
-int getLuminosidade(){
+int getLuminosidade(){ //criando a variável da luminosidade e pegando seu valor (segundo o "sensor" de luminosidade)
   	int luminosidade;
 	luminosidade = map(analogRead(A1), 6, 619, -3, 10);
   	return luminosidade;
