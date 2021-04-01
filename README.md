@@ -59,3 +59,6 @@ Após realizar a montagem, vamos conferir a lista de funcionalidades e adicionar
 
 ![image](https://cdn.discordapp.com/attachments/724643384068669514/826950368671694868/Captura_de_tela_de_2021-03-31_19-40-53.png)
 - **Meu nome é Gustavo Demeis Peres, mais conhecido apenas como Demeis, gosto de tocar instrumentos como baixo e violão, ouvir música e praticar esportes. Minha função foi na parte de ajudar a encontrar os erros no trabalho.**
+
+![image] (https://cdn.discordapp.com/attachments/707565430314893322/826954676191887360/unknown.png)
+- Meu nome é André Mateus Yoshimori, tenho 15 anos, adoro jogar com meus amigos, escutar música e dormir. Não gosto muito de programação.
